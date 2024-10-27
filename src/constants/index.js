@@ -4,25 +4,27 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
+  credain,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
+  java,
+  python,
+  springboot,
+  npcil,
+  // starbucks,
   tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  // shopify,
+  hubs,
+  stinc,
+  // jobit,
+  ems,
+  // tripguide,
+  deepfake,
   threejs,
+  white,
 } from "../assets";
 
 export const navLinks = [
@@ -42,24 +44,37 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Java - Spring boot",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "Full Stack",
     icon: creator,
   },
+  {
+    title: "Machine Learning",
+    icon: backend,
+  },
+  
 ];
 
 const technologies = [
+  {
+    name:"java",
+    icon: java,
+  },
+  {
+    name:"python",
+    icon: python,
+  },
+  {
+    name:"Spring boot",
+    icon: springboot,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -72,30 +87,30 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -108,158 +123,143 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineering Intern",
+    company_name: "NPCIL, Karwar, India",
+    icon: npcil,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2023 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a comprehensive Library Management Software using ColdFusion Markup Language, HTML5, CSS, JavaScript, and MS SQL",
+      " Streamlined cataloging and check-out processes, reducing administrative tasks by 40%.",
+      "Assisted the scientists and senior developers at the institution in reviewing codes in C and Fortran for Network Security.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    company_name: "Hubs, Bengaluru",
+    //icon: hubs,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2024 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "An Early StartUp based in Bengaluru.",
+      "I led and developed a MVP - an android app with a team of 4 using Flutter",
+      "One of the top 100 ideas in START Mahakumbh, G20 Summit, 2024.",
+      "Participated in fund raisings and meetings with VCs. Empowered my software as well as Interpersonal skills.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Associate Engineering Intern",
+    company_name: "Credain, Mumbai(Remote)",
+    icon: credain,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "October 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A fintech- financial services company where I work with the CEO closely in the Python team.",
+      "I contribute to write algorithms and test cases for payment chain automation.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Stinc",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An android, Flutter and Java application that allows users to post and vote on neighborhood issues.",
     tags: [
       {
-        name: "react",
+        name: "Flutter-Dart",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Java",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: stinc,
+    source_code_link: "https://github.com/ANKITHASBHAT/STINC",
   },
   {
-    name: "Job IT",
+    name: "EMS",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Full Stack application for Employee Management system implementing simple CRUD operations built on REST API.",
     tags: [
       {
-        name: "react",
+        name: "SpringBoot",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "reactJS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Postman",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ems,
+    source_code_link: "https://github.com/ANKITHASBHAT/Fullstack-EMS",
   },
   {
-    name: "Trip Guide",
+    name: "DeepFake Detection Model",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A detective model implemented using LSTM, RES-NET in Python.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "PIL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CUDA-Tools",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: deepfake,
+    source_code_link: "https://github.com/ANKITHASBHAT/DeepFake-Detection-Model",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
